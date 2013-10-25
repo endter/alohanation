@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-----------------------------------*\
+	$MAIN
+\*-----------------------------------*/
+
+html {
+	font: 125%/1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+	background: url('images/background.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.images/background.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale')";
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	font-weight: 100;
+	color: #FAFAFA;
+	vertical-align: middle;
+	margin-top: 15px;
+}
+
+h1 img {
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+
+.sidebar {
+	position: fixed;
+	top: 80px;
+	left: 3%;
+	display: *inline-block;
+	width: 35%;
+	font-size: 20px;
+	color: #FAFAFA;
+	/* for modeling purposes only */
+	text-align: justify;
+}
+
+.maincontent {
+	position: fixed;
+	top: 80px;
+	bottom: 15px;
+	left: 41.5%;
+	display: inline-block;
+	width: 55%;
+	border-radius: 10px;
+	overflow: auto;
+	/* for modeling purposes only */
+	text-align: justify;
+}
+
+.maincontent p {
+	padding: 15px 20px
+}
+
+.translucent {
+	background: rgba(255,255,255,0.44)
+}
+
+footer {
+	position: fixed;
+	bottom: 15px;
+	left: 23px;
+	color: rgba(255,255,255,0.44);
+	font-size: 14px;
+}
+
+/* Things to consider modifying for smaller screens in media queries - original stuff here
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	font-weight: 100;
+	color: #FAFAFA;
+	vertical-align: middle;
+	margin-top: 
+}
+
+h1 img {
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+
+dialog {
+	font-size: 20px;
+	color: #FAFAFA;
+}
+
+#main {
+	margin: 15px;
+}
+
+.translucent {
+	background: rgba(255,255,255,0.64)
+}
+
+*/
